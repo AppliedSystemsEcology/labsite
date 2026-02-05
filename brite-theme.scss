@@ -1,0 +1,7 @@
+/*-- scss:defaults --*/
+// Import Brite variables first to set the color palette
+@import "variables";
+
+/*-- scss:rules --*/
+// Import Brite rules after Bootstrap has loaded
+@import "bootswatch";

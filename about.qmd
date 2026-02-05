@@ -2,8 +2,6 @@
 title: "About"
 ---
 
-About this site
+Lab mission statement
 
-```{r}
-1 + 1
-```
+xxxx

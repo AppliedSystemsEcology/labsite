@@ -4,23 +4,53 @@ project:
 
 website:
   title: "Applied Systems Ecology Lab"
+  back-to-top-navigation: true
   navbar:
+    background: primary
+    logo: "lab_icon.png"
+    search: true
     right:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-      - people.qmd
-      - projects.qmd
-      - publications.qmd
-      - outreach.qmd
-      - news.qmd
-      - join.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        menu:
+          - text: "Mission"
+            href: about.qmd
+      - text: "People"
+        menu:
+          - text: "Primary Investigator"
+            href: people.qmd
+          - text: "Post-docs"
+            href: people.qmd
+          - text: "Graduate Students"
+            href: people.qmd
+          - text: "Undergraduate Students"
+            href: people.qmd
+          - text: "Alumni"
+            href: people.qmd
+      - text: "Projects"
+        menu:
+          - text: "Project 1"
+            href: projects.qmd
+          - text: "Project 2"
+            href: projects.qmd
+          - text: "Project 3"
+            href: projects.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Outreach"
+        href: outreach.qmd
+      - text: "News"
+        href: news.qmd
+      - text: "Join the Lab"
+        href: join.qmd
+
+
 
 format:
   html:
     theme:
-      - minty
-    css: styles.css
+       - brite-theme.scss
     toc: true
 
 editor: visual
