@@ -1,5 +1,5 @@
 ---
-title: "labsite"
+title: "Applied Systems Ecology Lab"
 ---
 
 This is a Quarto website.
