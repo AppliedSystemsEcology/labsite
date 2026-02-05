@@ -3,18 +3,23 @@ project:
   output-dir: docs
 
 website:
-  title: "labsite"
+  title: "Applied Systems Ecology Lab"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
+      - people.qmd
+      - projects.qmd
+      - publications.qmd
+      - outreach.qmd
+      - news.qmd
+      - join.qmd
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - minty
     css: styles.css
     toc: true
 
