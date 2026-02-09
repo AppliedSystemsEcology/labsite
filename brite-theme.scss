@@ -5,3 +5,43 @@
 /*-- scss:rules --*/
 // Import Brite rules after Bootstrap has loaded
 @import "bootswatch";
+
+// Ribbon size 
+.navbar {
+  padding-top: 1.0rem;
+  padding-bottom: 1.0rem;
+}
+
+
+// website title (e.g., your site name or logo text)
+.navbar-brand {
+  font-size: 1.5rem; // Larger than other items
+}
+
+// Main Navigation Links (the top-level items)
+.navbar-nav .nav-link {
+  font-size: 1.0rem; // The size you had before
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+
+// Dropdown Menu Items (sub-menu links)
+.dropdown-item {
+  font-size: 0.85rem; // Slightly smaller for nested items
+}
+
+// Navbar Text (any plain text strings not inside links)
+.navbar-text {
+  font-size: 0.8rem;
+}
+
+.navbar-logo {
+  max-height: 200px; /* Adjust this value to your desired height */
+}
+
+.navbar-brand img {
+  border-radius: 35%; /* Creates the circle */
+  object-fit: cover;  /* Ensures image fills space properly */
+  width: 50px;        /* Adjust size as needed */
+  height: 50px;       /* Adjust size as needed */
+}

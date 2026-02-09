@@ -1,5 +1,7 @@
 ---
-title: "Welcome"
+title: "Welcome to the Applied Systems Ecology Lab"
 ---
 
-This is the home page
+### *Agroecology and spatial ecology in applied systems*
+
+![Example landscape](m_example_landscape_pic.jpg){fig-align="center"}

@@ -5,10 +5,15 @@ project:
 website:
   title: "Applied Systems Ecology Lab"
   back-to-top-navigation: true
+  
   navbar:
     background: primary
     logo: "lab_icon.png"
     search: true
+    pinned: true
+    tools:
+      - icon: github
+        href: https://github.com/AppliedSystemsEcology
     right:
       - text: "Home"
         href: index.qmd
