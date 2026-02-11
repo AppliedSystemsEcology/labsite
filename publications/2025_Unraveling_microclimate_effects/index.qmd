@@ -1,0 +1,13 @@
+---
+title: ""
+author: ["Garrett Sisk", "Anaís Ostroski", "Travis Dillard", "Bruce Hall", "Sarah C. Goslee", "Christina M. Grozinger", "Vikas Khanna", "Heather Grab"]
+publication: "Agriculture, Ecosystems & Environment, **Volume 392**, _109734_ (2025)"
+categories: []
+url_source: https://doi.org/10.1016/j.agee.2025.109734
+url_preprint: 
+journ: "Agriculture, Ecosystems & Environment"
+issue: 392
+page: 109734
+year: 2025
+image: "featured.jpg"
+---

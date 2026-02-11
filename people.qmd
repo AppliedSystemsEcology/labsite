@@ -1,0 +1,98 @@
+---
+title: "People"
+listing:
+  - id: pi
+    contents:
+      - "people/**/*.qmd"
+      - "!../../people/_template.qmd"
+    include: 
+      people_group: "pi"
+    exclude:
+      external: true
+    template: _ejs/people-box.ejs
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: postdoc
+    contents:
+      - "people/**/*.qmd"
+      - "!../../people/_template.qmd"
+    include: 
+      people_group: "postdoc"
+    exclude:
+      external: true
+    template: _ejs/people-box.ejs
+    sort: last    
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: gradstudent
+    contents:
+      - "people/**/*.qmd"
+      - "!../../people/_template.qmd"
+    include: 
+      people_group: "gradstudent"
+    exclude:
+      external: true
+    template: _ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: post-bac
+    contents:
+      - "people/**/*.qmd"
+      - "!../../people/_template.qmd"
+    include: 
+      people_group: "post-bac"
+    exclude:
+      external: true
+    template: _ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: alumni
+    contents:
+      - "people/**/*.qmd"
+      - "!../../people/_template.qmd"
+    include: 
+      people_group: "alumni"
+    exclude:
+      external: true
+    template: _ejs/alumni-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education, altsubtitle, alteducation]
+page-layout: full
+---
+
+## Principal Investigator
+
+
+::: {#pi}
+:::
+
+
+:::{.sand-background}
+
+## Postdoctoral Fellows
+
+::: {#postdoc}
+:::
+
+:::{.sand-background}
+## Graduate Students
+
+
+
+::: {#gradstudent}
+:::
+
+
+:::{.sand-background}
+## Alumni
+
+
+
+::: {#alumni}
+:::
+
+:::
+

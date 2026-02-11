@@ -1,0 +1,49 @@
+---
+title: &TITLE Heather Grab
+last: Grab
+first: Heather
+people_group: "pi"
+email: "heathergrab@psu.edu"
+education:
+  - Ph.D. | Cornell University  <br> 
+subtitle: "Principle Investigator "
+description: ""
+image: avatar.jpg
+toc: false
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../publications/**/*.qmd"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:email@example.org
+---
+
+<hr>
+
+::: {#about}
+## Education
+
+{{< meta education >}}
+
+<br>
+:::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#pubs}
+:::
