@@ -1,11 +1,7 @@
 ---
-title: "labsite"
+title: "Welcome to the Applied Systems Ecology Lab"
 ---
 
-This is a Quarto website.
+### *Agroecology and spatial ecology in applied systems*
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+![Example landscape](m_example_landscape_pic.jpg){fig-align="center"}
