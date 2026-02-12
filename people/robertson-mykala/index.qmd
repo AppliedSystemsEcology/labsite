@@ -1,12 +1,12 @@
 ---
-title: &TITLE Heather Grab
-last: Grab
-first: Heather
-people_group: "pi"
-email: "heathergrab@psu.edu"
+title: &TITLE Mykala Robertson
+last: Robertson
+first: Mykala
+people_group: "gradstudent"
+email: "mdr5919@psu.edu"
 education:
-  - Ph.D. | Cornell University  <br> 
-subtitle: "Principle Investigator "
+  - M.S. | Cornell University <br>
+subtitle: "PhD Student, Entomology"
 description: ""
 image: avatar.jpg
 toc: false

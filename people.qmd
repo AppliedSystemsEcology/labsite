@@ -12,6 +12,17 @@ listing:
     template: _ejs/people-box.ejs
     type: grid
     fields: [title, subtitle, image, education]
+  - id: extension-faculty
+    contents:
+      - "people/**/*.qmd"
+      - "!../../people/_template.qmd"
+    include: 
+      people_group: "extension-faculty"
+    exclude:
+      external: true
+    template: _ejs/people-box.ejs
+    type: grid
+    fields: [title, subtitle, image, education]
   - id: postdoc
     contents:
       - "people/**/*.qmd"
@@ -36,12 +47,24 @@ listing:
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
-  - id: post-bac
+  - id: technician
     contents:
       - "people/**/*.qmd"
       - "!../../people/_template.qmd"
     include: 
-      people_group: "post-bac"
+      people_group: "technician"
+    exclude:
+      external: true
+    template: _ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: undergrad
+    contents:
+      - "people/**/*.qmd"
+      - "!../../people/_template.qmd"
+    include: 
+      people_group: "undergrad"
     exclude:
       external: true
     template: _ejs/people-box.ejs
@@ -65,33 +88,35 @@ page-layout: full
 
 ## Principal Investigator
 
-
 ::: {#pi}
 :::
 
+## Extension Faculty
 
-:::{.sand-background}
+::: {#extension-faculty}
+:::
 
 ## Postdoctoral Fellows
 
 ::: {#postdoc}
 :::
 
-:::{.sand-background}
 ## Graduate Students
-
-
 
 ::: {#gradstudent}
 :::
 
+## Technicians
 
-:::{.sand-background}
-## Alumni
-
-
-
-::: {#alumni}
+::: {#technician}
 :::
 
+## Undergraduate Students
+
+::: {#undergrad}
+:::
+
+## Alumni
+
+::: {#alumni}
 :::

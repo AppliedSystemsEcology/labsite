@@ -24,17 +24,19 @@ website:
       - text: "People"
         menu:
           - text: "Primary Investigator"
-            href: people.qmd
+            href: people.html#principal-investigator
+          - text: "Extension Faculty"
+            href: people.html#extension-faculty
           - text: "Postdoctoral Fellows"
-            href: people.qmd
+            href: people.html#postdoctoral-fellows
           - text: "Graduate Students"
-            href: people.qmd
-          - text: "Undergraduate Students"
-            href: people.qmd
+            href: people.html#graduate-students
           - text: "Technicians"
-            href: people.qmd
+            href: people.html#technicians
+          - text: "Undergraduate Students"
+            href: people.html#undergraduate-students
           - text: "Alumni"
-            href: people.qmd
+            href: people.html#alumni
       - text: "Projects"
         menu:
           - text: "Project 1"
