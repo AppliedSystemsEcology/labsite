@@ -1,3 +1,8 @@
 ---
-title: "Applied Systems Ecology"
+title: "Welcome to the Applied Systems Ecology Lab"
 ---
+
+### *Agroecology and spatial ecology in applied systems*
+
+![Example landscape](m_example_landscape_pic.jpg){fig-align="center"}
+
