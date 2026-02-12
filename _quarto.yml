@@ -25,11 +25,13 @@ website:
         menu:
           - text: "Primary Investigator"
             href: people.qmd
-          - text: "Post-docs"
+          - text: "Postdoctoral Fellows"
             href: people.qmd
           - text: "Graduate Students"
             href: people.qmd
           - text: "Undergraduate Students"
+            href: people.qmd
+          - text: "Technicians"
             href: people.qmd
           - text: "Alumni"
             href: people.qmd
