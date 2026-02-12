@@ -43,7 +43,7 @@ listing:
       people_group: "gradstudent"
     exclude:
       external: true
-    template: _ejs/people-box.ejs
+    template: _ejs/people-box-brite.ejs
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
