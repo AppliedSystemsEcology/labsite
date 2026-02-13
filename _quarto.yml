@@ -5,6 +5,9 @@ project:
 website:
   title: "Applied Systems Ecology Lab"
   back-to-top-navigation: true
+  page-footer:
+    center: "© 2026 Applied Systems Ecology Lab"
+    background: light
 
   navbar:
     background: primary
@@ -20,6 +23,8 @@ website:
       - text: "About"
         menu:
           - text: "Mission"
+            href: about.qmd
+          - text: "Lab Expectations"
             href: about.qmd
       - text: "People"
         menu:
@@ -40,11 +45,11 @@ website:
       - text: "Projects"
         menu:
           - text: "Project 1"
-            href: projects.qmd
+            href: projects.html#project-1
           - text: "Project 2"
-            href: projects.qmd
+            href: projects.html#project-2
           - text: "Project 3"
-            href: projects.qmd
+            href: projects.html#project-3
       - text: "Publications"
         href: publications.qmd
       - text: "Outreach"
@@ -59,6 +64,7 @@ format:
     theme:
        - brite-theme.scss
     toc: true
+
 
 editor: visual
 
