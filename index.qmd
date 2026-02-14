@@ -2,48 +2,12 @@
 title: "Welcome to the Applied Systems Ecology Lab"
 page-layout: full
 toc: false
+
+body-classes: landing
+
 title-block-banner: "#00000000"
 title-block-banner-color: "#ffffff"
-include-in-header:
-  - text: |
-      <style>
-      #title-block-header.quarto-title-block.default .quarto-title-meta {
-        color: #ffffff;
-      }
-      .quarto-title-block .quarto-title-banner {
-        height: 0;
-        margin-bottom: 0
-      }
-      #title-block-header {
-        background-image: url("images/m-landscape-cropped.jpg");
-        background-size: cover;
-        background-position-y: center;
-        height: 260px;
-      }
-      /* Circular logo that overlaps banner + content */
-      #title-block-header::after {
-        content: "";
-        position: absolute;
-        bottom: -60px;            /* pushes logo below banner */
-        left: 50%;
-        transform: translateX(-50%);
-        width: 200px;
-        height: 200px;
-        background-image: url("lab_icon.png");
-        background-size: cover;
-        background-position: center;
-        border-radius: 50%;
-        border: 6px solid white;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-      }
 
-      /* Make room so content doesn't overlap the logo */
-      main.content {
-        margin-top: 80px;
-      }
-      }
-
-      </style>
 ---
 
 ## Who we are

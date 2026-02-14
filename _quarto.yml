@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - images
 
 website:
   title: "Applied Systems Ecology Lab"
@@ -62,7 +64,8 @@ website:
 format:
   html:
     theme:
-       - brite-theme.scss
+       - styles/brite-theme.scss
+       - styles/landing.scss
     toc: true
 
 
