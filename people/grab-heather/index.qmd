@@ -1,5 +1,5 @@
 ---
-title: &TITLE Heather Grab
+title: Heather Grab
 last: Grab
 first: Heather
 people_group: "pi"
@@ -12,14 +12,14 @@ image: avatar.jpg
 toc: false
 listing:
   id: pubs
-  template: ../../_ejs/publications-people.ejs 
+  template: ../../_ejs/publications.ejs 
   contents: 
     - "../../publications/**/*.qmd"
   sort: "pub_number desc"
   # sort-ui: true
   filter-ui: true
   include:
-    author: *TITLE
+    author: "Grab, H."
   fields: [publication, title, categories, image, date, author]
 page-layout: full
 about: 

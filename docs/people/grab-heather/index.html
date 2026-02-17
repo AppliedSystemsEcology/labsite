@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-editor","listing-language","listing-author","listing-publication","listing-categories","listing-url_source","listing-url_preprint","listing-journ","listing-issue","listing-page","listing-year","listing-image","listing-path","listing-outputHref","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-editor","listing-language","listing-title","listing-author","listing-categories","listing-url_source","listing-url_preprint","listing-journ","listing-volume","listing-page","listing-year","listing-doi","listing-path","listing-outputHref","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -297,46 +297,42 @@ window.Quarto = {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
+
 <div class="list quarto-listing-default">
     
 
-    <div class="quarto-post image-right" data-index="0" data-categories="" data-listing-file-modified-sort="1770908847785" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    
+
+    <div class="quarto-post image-right no-image" data-index="0" data-categories="" data-listing-file-modified-sort="1771341759322" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+
+        
+
         <div class="body">
             <!-- <a href="/publications/2025_Unraveling_microclimate_effects/index.qmd"> -->
-            <div class="no-anchor listing-pub-title listing-title"></div>
-            <!-- </a> -->
-            <!-- <a href="/publications/2025_Unraveling_microclimate_effects/index.qmd"> -->
 
-                <div class="listing-pub-author listing-author">
-                    Garrett Sisk, Anaís Ostroski, Travis Dillard, Bruce Hall, Sarah C. Goslee, Christina M. Grozinger, Vikas Khanna, Heather Grab<br>
-                </div>
-
-                <div class="metadata-value listing-pub-journal listing-publication">
-                    
-                        <i>Agriculture, Ecosystems &amp; Environment</i>, <b>392</b>, 109734 (2025)<br>
-
-                        
-
-                </div>
+            <div class="listing-pub-apa">
+              Sisk, G., Ostroski, A., Dillard, T., Hall, B., Goslee, S. C., Grozinger, C. M., Khanna, V., Grab, H. (2025). Unraveling microclimate effects on pollinator foraging and crop yield in lowbush blueberry. <i>Agriculture, Ecosystems &amp; Environment</i> <i>392</i>, 109734. https://doi.org/10.1016/j.agee.2025.109734
+            </div>
 
             <!-- </a> -->
- <!--               <div class="listing-categories">
-                
-                </div>
-                -->
+        
+          <div class="listing-categories">
+            
+          </div>
+        
+
         </div>
         <div class="listing-links">
-
             
             <div class="listing-pub-url">
 
-                    <a href="https://doi.org/10.1016/j.agee.2025.109734">
-                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    <a href="https://www.sciencedirect.com/science/article/pii/S016788092500266X">
+                    <p style="color:#8250E6;">Article <i class="bi bi-box-arrow-up-right"></i></p>
                     </a>
                 </div>
                     
 
-              
+            
 
         </div>
     </div>
