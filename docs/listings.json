@@ -10,6 +10,12 @@
     ]
   },
   {
+    "listing": "/news.html",
+    "items": [
+      "/news/20251109_EntSoc/20251109_EntSoc.html"
+    ]
+  },
+  {
     "listing": "/people.html",
     "items": [
       "/people/grab-heather/index.html",

@@ -25,9 +25,9 @@ website:
       - text: "About"
         menu:
           - text: "Mission"
-            href: about.qmd
+            href: about.html#mission
           - text: "Lab Expectations"
-            href: about.qmd
+            href: about.html#lab-expectations
       - text: "People"
         menu:
           - text: "Primary Investigator"
