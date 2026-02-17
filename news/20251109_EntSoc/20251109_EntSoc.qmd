@@ -1,0 +1,10 @@
+---
+title: "EntSoc 2025"
+format: html
+date: "2025-11-09"
+categories: "conferences"
+---
+
+The Applied Systems Ecology Lab went to the 2025 meeting of the Entomological Society of America at Portland, OR!
+
+![The lab at EntSoc](EntSoc2025.jpg){fig-alt="labphoto"}

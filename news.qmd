@@ -1,6 +1,9 @@
 ---
-title: "News"
+title: "Applied Systems Ecology Lab News"
+listing:
+  contents: news
+  type: default
+  categories: true
 ---
 
-ASE Lab in the News
 
