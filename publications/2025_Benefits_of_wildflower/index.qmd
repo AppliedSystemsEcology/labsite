@@ -1,0 +1,17 @@
+---
+title: Benefits of wildflower strips in agricultural field margins differ based on
+  landscape complexity across four ecosystem services
+author:
+- Li, K.
+- Goslee, S.
+categories: []
+url_source: https://doi.org/10.1007/s10980-025-02185-y
+url_preprint: ''
+journ: Landscape Ecology
+volume: 40
+issue: 8
+page: 173
+year: 2025
+doi: 10.1007/s10980-025-02185-y
+---
+

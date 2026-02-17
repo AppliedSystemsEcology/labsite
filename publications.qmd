@@ -13,6 +13,5 @@ page-layout: full
 
 <hr>
 
-:::{#pubs}
+::: {#pubs}
 :::
-

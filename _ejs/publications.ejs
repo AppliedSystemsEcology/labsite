@@ -1,58 +1,91 @@
 ```{=html}
+<%
+function formatAuthorsAPA(authors) {
+  if (!authors) return "";
+
+  // If string, use it
+  if (typeof authors === "string") {
+    return authors;
+  }
+
+  // If array, format APA-style
+  if (Array.isArray(authors)) {
+    if (authors.length === 1) return authors[0];
+
+    if (authors.length === 2) {
+      return `${authors[0]} & ${authors[1]}`;
+    }
+
+    const lastAuthor = authors[authors.length - 1];
+    const others = authors.slice(0, -1);
+    return `${others.join(", ")}, & ${lastAuthor}`;
+  }
+
+  return "";
+}
+
+function formatAPA(item) {
+  const authors = formatAuthorsAPA(item.author);
+  const year = item.year ? `(${item.year}).` : "";
+  const title = item.title ? `${item.title}.` : "";
+  const journal = item.journ ? `<i>${item.journ}</i>` : "";
+  const volume = item.volume ? ` <i>${item.volume}</i>` : "";
+  const issue = item.issue ? `(${item.issue})` : "";
+  const pages = item.page ? `, ${item.page}` : "";
+  const doi = item.doi ? ` https://doi.org/${item.doi}` : "";
+
+  return `
+    ${authors} ${year}
+    ${title}
+    ${journal}${volume}${issue}${pages}.
+    ${doi}
+  `.replace(/\s+/g, " ").trim();
+}
+%>
+
 <div class="list quarto-listing-default">
     <% for (const item of items) { %>
 
-    <div class="quarto-post image-right" <%= metadataAttrs(item) %> >
-        <div class="thumbnail">
-            <!-- <a href="<%- item.path %>"> -->
+    <% const hasImage = !!item.image; %>
 
-                <p>
-                    <% if (item.image) { %>
-                    <img alt="<%= item.title %>" src="<%= item.image %>" class="thumbnail-image">
-                    <% } %>
+    <div class="quarto-post image-right <%= hasImage ? 'has-image' : 'no-image' %>"
+         <%= metadataAttrs(item) %>>
 
-                </p>
+        <% if (hasImage) { %>
+          <div class="thumbnail">
+            <img
+              alt="<%= item.title %>"
+              src="<%= item.image %>"
+              class="thumbnail-image">
+          </div>
+        <% } %>
 
-
-            <!-- </a> -->
-        </div>
         <div class="body">
             <!-- <a href="<%- item.path %>"> -->
-            <div class="no-anchor listing-pub-title listing-title"><%= item.title %></div>
-            <!-- </a> -->
-            <!-- <a href="<%- item.path %>"> -->
 
-                <div class="listing-pub-author listing-author">
-                    <%= item.author %><br>
-                </div>
-
-                <div class="metadata-value listing-pub-journal listing-publication">
-                    <% if (item.journ) { %>
-                        <i><%= item.journ %></i><% if (item.issue) { %>, <b><%= item.issue %></b><% } %><% if (item.page) { %>, <%= item.page %><% } %><% if (item.year) { %> (<%= item.year %>)<% } %><br>
-
-                        <% } %>
-
-
-
-
-                </div>
-
-
+            <div class="listing-pub-apa">
+              <%= formatAPA(item) %>
+            </div>
 
             <!-- </a> -->
- <!--               <div class="listing-categories">
-                <% for (const category of item.categories) { %>
-                <div class="listing-category" onclick="window.quartoListingCategory('<%=category%>'); return false;"><%= category %></div>
-                <% } %>
-                </div>
-                -->
+        <% if (Array.isArray(item.categories)) { %>
+          <div class="listing-categories">
+            <% for (const category of item.categories) { %>
+              <div class="listing-category"
+                   onclick="window.quartoListingCategory('<%= category %>'); return false;">
+                <%= category %>
+              </div>
+            <% } %>
+          </div>
+        <% } %>
+
         </div>
         <div class="listing-links">
             <% if (item.url_source) { %>
             <div class="listing-pub-url">
 
                     <a href="<%- item.url_source %>">
-                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
+                    <p style="color:#8250E6;">Article <i class="bi bi-box-arrow-up-right"></i></p>
                     </a>
                 </div>
                     <% } %>
