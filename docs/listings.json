@@ -1,5 +1,22 @@
 [
   {
+    "listing": "/people/robertson-mykala/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/2025_Benefits_of_wildflower/index.html",
+      "/publications/2025_Unraveling_microclimate_effects/index.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/20251109_EntSoc/20251109_EntSoc.html"
+    ]
+  },
+  {
     "listing": "/people.html",
     "items": [
       "/people/grab-heather/index.html",
@@ -8,16 +25,6 @@
   },
   {
     "listing": "/people/grab-heather/index.html",
-    "items": [
-      "/publications/2025_Unraveling_microclimate_effects/index.html"
-    ]
-  },
-  {
-    "listing": "/people/robertson-mykala/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications.html",
     "items": [
       "/publications/2025_Unraveling_microclimate_effects/index.html"
     ]

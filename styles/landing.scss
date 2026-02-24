@@ -1,0 +1,58 @@
+/*-- scss:rules --*/
+
+/* Scope everything to the landing page only */
+body.landing {
+
+  /* Title block / banner */
+  #title-block-header {
+    position: relative;      // anchor for absolute positioning
+    overflow: visible;       // allow logo to hang below
+    height: 260px;
+
+    background-image: url("images/m-landscape-cropped.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Remove Quarto's banner spacer */
+  .quarto-title-block .quarto-title-banner {
+    height: 0;
+    margin-bottom: 0;
+  }
+
+  /* White title text */
+  #title-block-header.quarto-title-block.default {
+    h1,
+    .quarto-title-meta {
+      color: #ffffff;
+    }
+  }
+
+  /* Circular logo */
+  #title-block-header::after {
+    content: "";
+    position: absolute;
+    bottom: -100px;          // half of logo height
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 200px;
+    height: 200px;
+
+    background-image: url("lab_icon.png");
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+    z-index: 10;
+  }
+
+  /* Push content down so it clears the logo */
+  main.content {
+    margin-top: 120px;
+    text-align: left;
+  }
+}
