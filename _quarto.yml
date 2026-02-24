@@ -13,7 +13,6 @@ website:
 
   navbar:
     background: primary
-    logo: "lab_icon.png"
     search: true
     pinned: true
     tools:
@@ -46,16 +45,18 @@ website:
             href: people.html#alumni
       - text: "Projects"
         menu:
-          - text: "Project 1"
-            href: projects.html#project-1
-          - text: "Project 2"
-            href: projects.html#project-2
-          - text: "Project 3"
-            href: projects.html#project-3
+          - text: "Corn Earworm Projects"
+            href: projects.html#corn-earworm-projects
+          - text: "Bumblebee Stressors"
+            href: projects.html#bumblebee-stressors
+          - text: "High Tunnel Thrips"
+            href: projects.html#high-tunnel-thrips
+          - text: "Deepflora"
+            href: projects.html#deep-flora
       - text: "Publications"
         href: publications.qmd
-      - text: "Outreach"
-        href: outreach.qmd
+      - text: "Extension"
+        href: extension.qmd
       - text: "News"
         href: news.qmd
       - text: "Join the Lab"
