@@ -1,0 +1,53 @@
+---
+title: Kevin Li
+last: Li
+middle: ''
+first: Kevin
+people_group: postdoc
+education: Ph.D. | University of Göttingen <br> M.S. | University of Michigan <br>
+  M.L.A. | University of Michigan
+subtitle: Postdoctoral Scholar
+blurb: I am interested in spatial patterns and impacts of anthropogenic forces (such
+  as land use change and global climate change) on biodiversity, ecosystem functions,
+  and ecosystem services in the landscape.
+image: ../_images/li-kevin.jpg
+toc: false
+listing:
+  id: pubs
+  template: ../../_ejs/publications.ejs
+  contents: ../../publications/**/*.qmd
+  sort: pub_number desc
+  filter-ui: true
+  include:
+    author: Li, K.
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: ../_images/li-kevin.jpg
+  links:
+  - icon: envelope
+    text: Email
+    href: likevin@psu.edu
+  - text: ORCID
+    href: https://orcid.org/0000-0002-7677-8682
+---
+
+<hr>
+
+::: {#about}
+
+{{< meta blurb >}}
+
+## Education
+
+{{< meta education >}}
+
+<br>
+:::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#pubs}
+:::

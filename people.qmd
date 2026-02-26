@@ -4,7 +4,6 @@ listing:
   - id: pi
     contents:
       - "people/**/*.qmd"
-      - "!../../people/_template.qmd"
     include: 
       people_group: "pi"
     exclude:

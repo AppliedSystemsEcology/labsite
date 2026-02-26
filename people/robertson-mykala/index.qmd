@@ -1,41 +1,40 @@
 ---
-title: &TITLE Mykala Robertson
+title: Mykala Dawn Robertson
 last: Robertson
+middle: Dawn
 first: Mykala
-people_group: "gradstudent"
-email: "mdr5919@psu.edu"
-education:
-  - M.S. | Cornell University <br>
-subtitle: "PhD Student, Entomology"
-description: ""
-image: avatar.jpg
+people_group: gradstudent
+education: ''
+subtitle: Graduate Student
+blurb: ''
+image: ../_images/robertson-mykala.jpg
 toc: false
 listing:
   id: pubs
-  template: ../../_ejs/publications-people.ejs 
-  contents: 
-    - "../../publications/**/*.qmd"
-  sort: "pub_number desc"
-  # sort-ui: true
+  template: ../../_ejs/publications.ejs
+  contents: ../../publications/**/*.qmd
+  sort: pub_number desc
   filter-ui: true
   include:
-    author: *TITLE
-  fields: [publication, title, categories, image, date, author]
+    author: Robertson, M.
 page-layout: full
-about: 
+about:
   id: about
   template: trestles
   image-shape: round
-  image: avatar.jpg
+  image: ../_images/robertson-mykala.jpg
   links:
-    - icon: envelope
-      text: Email
-      href: mailto:email@example.org
+  - icon: envelope
+    text: Email
+    href: mdr5919@psu.edu
 ---
 
 <hr>
 
 ::: {#about}
+
+{{< meta blurb >}}
+
 ## Education
 
 {{< meta education >}}

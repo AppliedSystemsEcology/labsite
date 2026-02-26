@@ -1,0 +1,48 @@
+---
+title: Kristina Nevada Kintigh
+last: Kintigh
+middle: Nevada
+first: Kristina
+people_group: undergrad
+education: ''
+subtitle: ''
+blurb: ''
+image: ../_images/_template.jpg
+toc: false
+listing:
+  id: pubs
+  template: ../../_ejs/publications.ejs
+  contents: ../../publications/**/*.qmd
+  sort: pub_number desc
+  filter-ui: true
+  include:
+    author: Kintigh, K.
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: ../_images/_template.jpg
+  links:
+  - icon: envelope
+    text: Email
+    href: knk5375@psu.edu
+---
+
+<hr>
+
+::: {#about}
+
+{{< meta blurb >}}
+
+## Education
+
+{{< meta education >}}
+
+<br>
+:::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#pubs}
+:::

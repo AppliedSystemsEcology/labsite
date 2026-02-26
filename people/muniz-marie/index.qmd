@@ -1,0 +1,48 @@
+---
+title: Marie Lassiter Muniz
+last: Muniz
+middle: Lassiter
+first: Marie
+people_group: gradstudent
+education: ''
+subtitle: Graduate Student
+blurb: ''
+image: ../_images/_template.jpg
+toc: false
+listing:
+  id: pubs
+  template: ../../_ejs/publications.ejs
+  contents: ../../publications/**/*.qmd
+  sort: pub_number desc
+  filter-ui: true
+  include:
+    author: Muniz, M.
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: ../_images/_template.jpg
+  links:
+  - icon: envelope
+    text: Email
+    href: mlm7670@psu.edu
+---
+
+<hr>
+
+::: {#about}
+
+{{< meta blurb >}}
+
+## Education
+
+{{< meta education >}}
+
+<br>
+:::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#pubs}
+:::

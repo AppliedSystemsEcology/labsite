@@ -1,0 +1,53 @@
+---
+title: Mark A Buckner
+last: Buckner
+middle: A
+first: Mark
+people_group: alumni
+education: Ph.D. | Cornell University <br> B.S. | University of Montana
+subtitle: ''
+blurb: ''
+image: ../_images/buckner-mark.jpg
+toc: false
+listing:
+  id: pubs
+  template: ../../_ejs/publications.ejs
+  contents: ../../publications/**/*.qmd
+  sort: pub_number desc
+  filter-ui: true
+  include:
+    author: Buckner, M.
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: ../_images/buckner-mark.jpg
+  links:
+  - icon: envelope
+    text: Email
+    href: markbuckner@psu.edu
+  - text: ORCID
+    href: https://orcid.org/0000-0002-9692-7454
+  - icon: link
+    text: Personal
+    href: https://markabuckner.com/
+---
+
+<hr>
+
+::: {#about}
+
+{{< meta blurb >}}
+
+## Education
+
+{{< meta education >}}
+
+<br>
+:::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#pubs}
+:::

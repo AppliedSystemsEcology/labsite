@@ -1,0 +1,48 @@
+---
+title: Kelly Lynne Bennett
+last: Bennett
+middle: Lynne
+first: Kelly
+people_group: technician
+education: ''
+subtitle: Research Technologist in the Applied Systems Ecology Lab
+blurb: ''
+image: ../_images/_template.jpg
+toc: false
+listing:
+  id: pubs
+  template: ../../_ejs/publications.ejs
+  contents: ../../publications/**/*.qmd
+  sort: pub_number desc
+  filter-ui: true
+  include:
+    author: Bennett, K.
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: ../_images/_template.jpg
+  links:
+  - icon: envelope
+    text: Email
+    href: klb6219@psu.edu
+---
+
+<hr>
+
+::: {#about}
+
+{{< meta blurb >}}
+
+## Education
+
+{{< meta education >}}
+
+<br>
+:::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#pubs}
+:::

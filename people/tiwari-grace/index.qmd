@@ -1,0 +1,48 @@
+---
+title: Grace Tiwari
+last: Tiwari
+middle: ''
+first: Grace
+people_group: gradstudent
+education: ''
+subtitle: Graduate Student
+blurb: ''
+image: ../_images/_template.jpg
+toc: false
+listing:
+  id: pubs
+  template: ../../_ejs/publications.ejs
+  contents: ../../publications/**/*.qmd
+  sort: pub_number desc
+  filter-ui: true
+  include:
+    author: Tiwari, G.
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: ../_images/_template.jpg
+  links:
+  - icon: envelope
+    text: Email
+    href: gvt5197@psu.edu
+---
+
+<hr>
+
+::: {#about}
+
+{{< meta blurb >}}
+
+## Education
+
+{{< meta education >}}
+
+<br>
+:::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#pubs}
+:::

@@ -1,0 +1,48 @@
+---
+title: Elyssia Nicole Good
+last: Good
+middle: Nicole
+first: Elyssia
+people_group: technician
+education: ''
+subtitle: Part-Time Research Support
+blurb: ''
+image: ../_images/_template.jpg
+toc: false
+listing:
+  id: pubs
+  template: ../../_ejs/publications.ejs
+  contents: ../../publications/**/*.qmd
+  sort: pub_number desc
+  filter-ui: true
+  include:
+    author: Good, E.
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: ../_images/_template.jpg
+  links:
+  - icon: envelope
+    text: Email
+    href: eng5274@psu.edu
+---
+
+<hr>
+
+::: {#about}
+
+{{< meta blurb >}}
+
+## Education
+
+{{< meta education >}}
+
+<br>
+:::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#pubs}
+:::
