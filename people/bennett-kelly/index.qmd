@@ -7,6 +7,7 @@ people_group: technician
 education: ''
 subtitle: Research Technologist in the Applied Systems Ecology Lab
 blurb: ''
+description: ''
 image: ../_images/_template.jpg
 toc: false
 listing:

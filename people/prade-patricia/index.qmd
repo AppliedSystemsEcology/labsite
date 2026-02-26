@@ -7,6 +7,7 @@ people_group: extension-faculty
 education: ''
 subtitle: Extension Educator - Entomologist
 blurb: ''
+description: ''
 image: ../_images/_template.jpg
 toc: false
 listing:

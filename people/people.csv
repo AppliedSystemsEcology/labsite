@@ -1,13 +1,13 @@
-﻿Last,First,Middle,email,orcid,github,researchgate,linkedin,personal_website,role,people_group,edu1_degree,edu1_institution,edu2_degree,edu2_institution,edu3_degree,edu3_institution,current,blurb
-Grab,Heather,,heathergrab@psu.edu,0000-0002-1073-8805,,,,,Assistant Professor,pi,Ph.D.,Cornell University,,,,,,
-Bennett,Kelly,Lynne,klb6219@psu.edu,,,,,,Research Technologist in the Applied Systems Ecology Lab,technician,,,,,,,,
-Buckner,Mark,A,markbuckner@psu.edu,0000-0002-9692-7454,,,,https://markabuckner.com/,,alumni,Ph.D.,Cornell University,B.S.,University of Montana,,,Utah State University,
-Good,Elyssia,Nicole,eng5274@psu.edu,,,,,,Part-Time Research Support,technician,,,,,,,,
-Kintigh,Kristina,Nevada,knk5375@psu.edu,,,,,,,undergrad,,,,,,,,
-Li,Kevin,,likevin@psu.edu,0000-0002-7677-8682,,,,,Postdoctoral Scholar,postdoc,Ph.D.,University of Göttingen,M.S.,University of Michigan,M.L.A.,University of Michigan,,"I am interested in spatial patterns and impacts of anthropogenic forces (such as land use change and global climate change) on biodiversity, ecosystem functions, and ecosystem services in the landscape."
-Magliaro,Lauren,Margaret,lmm7455@psu.edu,,,,,,Undergraduate Student,undergrad,,,,,,,,
-Muniz,Marie,Lassiter,mlm7670@psu.edu,,,,,,Graduate Student,gradstudent,,,,,,,,
-Oberholtzer,Marlow,,ejo5363@psu.edu,,,,,,,undergrad,,,,,,,,
-Prade,Patricia,,prade@psu.edu,,,,,,Extension Educator - Entomologist,extension-faculty,,,,,,,,
-Robertson,Mykala,Dawn,mdr5919@psu.edu,,,,,,Graduate Student,gradstudent,,,,,,,,
-Tiwari,Grace,,gvt5197@psu.edu,,,,,,Graduate Student,gradstudent,,,,,,,,
+﻿Last,First,Middle,email,orcid,github,researchgate,linkedin,personal_website,role,people_group,edu1_degree,edu1_institution,edu2_degree,edu2_institution,edu3_degree,edu3_institution,current,blurb,pronouns
+Grab,Heather,,heathergrab@psu.edu,0000-0002-1073-8805,,,,,Assistant Professor,pi,Ph.D.,Cornell University,,,,,,,
+Bennett,Kelly,Lynne,klb6219@psu.edu,,,,,,Research Technologist in the Applied Systems Ecology Lab,technician,,,,,,,,,
+Buckner,Mark,A,markbuckner@psu.edu,0000-0002-9692-7454,,,,https://markabuckner.com/,,alumni,Ph.D.,Cornell University,B.S.,University of Montana,,,Utah State University,,
+Good,Elyssia,Nicole,eng5274@psu.edu,,,,,,Part-Time Research Support,technician,,,,,,,,,
+Kintigh,Kristina,Nevada,knk5375@psu.edu,,,,,,,undergrad,,,,,,,,,
+Li,Kevin,,likevin@psu.edu,0000-0002-7677-8682,,,,,Postdoctoral Scholar,postdoc,Ph.D.,University of Göttingen,M.S.,University of Michigan,M.L.A.,University of Michigan,,"I am interested in spatial patterns and impacts of anthropogenic forces like land use change and global climate change on biodiversity, ecosystem functions, and ecosystem services in the agricultural landscape.",he/him
+Magliaro,Lauren,Margaret,lmm7455@psu.edu,,,,,,Undergraduate Student,undergrad,,,,,,,,,
+Muniz,Marie,Lassiter,mlm7670@psu.edu,,,,,,Graduate Student,gradstudent,,,,,,,,,
+Oberholtzer,Marlow,,ejo5363@psu.edu,,,,,,,undergrad,,,,,,,,,
+Prade,Patricia,,prade@psu.edu,,,,,,Extension Educator - Entomologist,extension-faculty,,,,,,,,,
+Robertson,Mykala,Dawn,mdr5919@psu.edu,,,,,,Graduate Student,gradstudent,,,,,,,,,
+Tiwari,Grace,,gvt5197@psu.edu,,,,,,Graduate Student,gradstudent,,,,,,,,,

@@ -7,6 +7,7 @@ people_group: gradstudent
 education: ''
 subtitle: Graduate Student
 blurb: ''
+description: ''
 image: ../_images/robertson-mykala.jpg
 toc: false
 listing:

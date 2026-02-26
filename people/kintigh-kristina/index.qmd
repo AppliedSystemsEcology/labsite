@@ -7,6 +7,7 @@ people_group: undergrad
 education: ''
 subtitle: ''
 blurb: ''
+description: ''
 image: ../_images/_template.jpg
 toc: false
 listing:

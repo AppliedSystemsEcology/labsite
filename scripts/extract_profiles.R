@@ -47,6 +47,7 @@ for(i in seq_len(nrow(people))){
     email = people$email[i],
     education = edu.all,
     role = people$role[i],
+    description = people$pronouns[i],
     blurb = people$blurb[i],
     image = paste0("../_images/",use.image),
     orcid = people$orcid[i],

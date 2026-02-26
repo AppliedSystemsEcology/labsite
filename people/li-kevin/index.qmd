@@ -7,9 +7,10 @@ people_group: postdoc
 education: Ph.D. | University of Göttingen <br> M.S. | University of Michigan <br>
   M.L.A. | University of Michigan
 subtitle: Postdoctoral Scholar
-blurb: I am interested in spatial patterns and impacts of anthropogenic forces (such
-  as land use change and global climate change) on biodiversity, ecosystem functions,
-  and ecosystem services in the landscape.
+blurb: I am interested in spatial patterns and impacts of anthropogenic forces like
+  land use change and global climate change on biodiversity, ecosystem functions,
+  and ecosystem services in the agricultural landscape.
+description: he/him
 image: ../_images/li-kevin.jpg
 toc: false
 listing:

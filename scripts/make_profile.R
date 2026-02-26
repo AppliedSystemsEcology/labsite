@@ -41,6 +41,7 @@ make_profile <- function(
     education = education,
     subtitle = role,
     blurb = blurb,
+    description = description,
     image = image,
     toc = FALSE,
     listing =
