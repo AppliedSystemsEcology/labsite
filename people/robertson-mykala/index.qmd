@@ -4,10 +4,19 @@ last: Robertson
 middle: Dawn
 first: Mykala
 people_group: gradstudent
-education: ''
-subtitle: Graduate Student
-blurb: ''
-description: ''
+education: M.S. | Cornell University <br> A.S | Amarillo College <br> B.S. | West
+  Texas A&M University
+subtitle: Ph.D. Student, Entomology
+blurb: My research interests include integrated pest and pollinator management (IPPM),
+  precision agriculture, and agroecology with the goal of providing innovative and
+  accessible extension decision-making resources. I am especially passionate about
+  better understanding agricultural landscapes to develop IPPM solutions that will
+  support growers’ needs while creating minimal negative disruptions to the surrounding
+  ecosystem. I am currently leading projects focused on IPM of thrips (Thysanoptera)
+  in high tunnel tomato systems and using computer vision and machine learning to
+  create a smart sticky trap that will inform a pest forecasting model for thrips
+  management in high tunnels.
+description: she/her
 image: ../_images/robertson-mykala.jpg
 toc: false
 listing:
@@ -28,6 +37,14 @@ about:
   - icon: envelope
     text: Email
     href: mdr5919@psu.edu
+  - text: ORCID
+    href: https://orcid.org/0000-0002-4486-8261
+  - icon: github
+    text: GitHub
+    href: mdr227
+  - icon: linkedin
+    text: LinkedIn
+    href: https://www.linkedin.com/in/mykala-robertson
 ---
 
 <hr>

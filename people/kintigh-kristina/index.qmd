@@ -5,7 +5,7 @@ middle: Nevada
 first: Kristina
 people_group: undergrad
 education: ''
-subtitle: ''
+subtitle: Undergraduate Student
 blurb: ''
 description: ''
 image: ../_images/_template.jpg

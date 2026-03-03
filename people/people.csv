@@ -1,13 +1,14 @@
 ﻿Last,First,Middle,email,orcid,github,researchgate,linkedin,personal_website,role,people_group,edu1_degree,edu1_institution,edu2_degree,edu2_institution,edu3_degree,edu3_institution,current,blurb,pronouns
 Grab,Heather,,heathergrab@psu.edu,0000-0002-1073-8805,,,,,Assistant Professor,pi,Ph.D.,Cornell University,,,,,,,
-Bennett,Kelly,Lynne,klb6219@psu.edu,,,,,,Research Technologist in the Applied Systems Ecology Lab,technician,,,,,,,,,
-Buckner,Mark,A,markbuckner@psu.edu,0000-0002-9692-7454,,,,https://markabuckner.com/,,alumni,Ph.D.,Cornell University,B.S.,University of Montana,,,Utah State University,,
-Good,Elyssia,Nicole,eng5274@psu.edu,,,,,,Part-Time Research Support,technician,,,,,,,,,
-Kintigh,Kristina,Nevada,knk5375@psu.edu,,,,,,,undergrad,,,,,,,,,
+Bennett,Kelly,L,kellybennett@psu.edu,,,,,,Research Technologist,technician,B. Phil,Penn State University,,,,,,,she/her
+Buckner,Mark,A,markbuckner@psu.edu,0000-0002-9692-7454,,,,https://markabuckner.com/,Currently at Utah State University,alumni,Ph.D.,Cornell University,B.S.,University of Montana,,,Utah State University,,
+Good,Elyssia,Nicole,eng5274@psu.edu,,,,,,Undergraduate Research Support,technician,,,,,,,,,
+Kintigh,Kristina,Nevada,knk5375@psu.edu,,,,,,Undergraduate Student,undergrad,,,,,,,,,
 Li,Kevin,,likevin@psu.edu,0000-0002-7677-8682,,,,,Postdoctoral Scholar,postdoc,Ph.D.,University of Göttingen,M.S.,University of Michigan,M.L.A.,University of Michigan,,"I am interested in spatial patterns and impacts of anthropogenic forces like land use change and global climate change on biodiversity, ecosystem functions, and ecosystem services in the agricultural landscape.",he/him
 Magliaro,Lauren,Margaret,lmm7455@psu.edu,,,,,,Undergraduate Student,undergrad,,,,,,,,,
-Muniz,Marie,Lassiter,mlm7670@psu.edu,,,,,,Graduate Student,gradstudent,,,,,,,,,
-Oberholtzer,Marlow,,ejo5363@psu.edu,,,,,,,undergrad,,,,,,,,,
-Prade,Patricia,,prade@psu.edu,,,,,,Extension Educator - Entomologist,extension-faculty,,,,,,,,,
-Robertson,Mykala,Dawn,mdr5919@psu.edu,,,,,,Graduate Student,gradstudent,,,,,,,,,
-Tiwari,Grace,,gvt5197@psu.edu,,,,,,Graduate Student,gradstudent,,,,,,,,,
+Muniz,Marie,Lassiter,mlm7670@psu.edu,0000-0003-3191-2275,immortalwhat,,https://www.linkedin.com/in/mariemuniz/,,"Ph.D. Student, Entomology",gradstudent,Ph.D.,University of North Texas,B.S.,,,,,I am interested in how environmental and anthropogenic stressors impact important pollinator behaviors.,she/her
+Oberholtzer,Marlow,,ejo5363@psu.edu,,,,,,Undergraduate Student,undergrad,,,,,,,,,
+Prade,Patricia,,prade@psu.edu,"0000-0002-4251-9340
+",,https://www.researchgate.net/profile/Patricia-Prade?ev=hdr_xprf,https://www.linkedin.com/in/patricia-prade-ph-d-a2bb6242/,,Extension Educator - Entomologist,extension-faculty,Ph.D.,University of Florida,M.S.,"Regonal University of Blumenau, Brazil",B.S.,"Regonal University of Blumenau, Brazil",,"My research and extension interests focus on biological control, integrated pest management (IPM), and invasive species, with a broader interest in how agricultural systems function across space and time. I am particularly interested in understanding how land use change reshapes biodiversity patterns and alters ecosystem functions and services within agricultural landscapes.",she/her
+Robertson,Mykala,Dawn,mdr5919@psu.edu,0000-0002-4486-8261,mdr227,,https://www.linkedin.com/in/mykala-robertson,,"Ph.D. Student, Entomology",gradstudent,M.S.,Cornell University,A.S,Amarillo College,B.S.,West Texas A&M University,Penn State University,"My research interests include integrated pest and pollinator management (IPPM), precision agriculture, and agroecology with the goal of providing innovative and accessible extension decision-making resources. I am especially passionate about better understanding agricultural landscapes to develop IPPM solutions that will support growers’ needs while creating minimal negative disruptions to the surrounding ecosystem. I am currently leading projects focused on IPM of thrips (Thysanoptera) in high tunnel tomato systems and using computer vision and machine learning to create a smart sticky trap that will inform a pest forecasting model for thrips management in high tunnels.",she/her
+Tiwari,Grace,,gvt5197@psu.edu,,gracetiwari,,www.linkedin.com/in/gracetiwari,,"Ph.D. Student, Entomology/INTAD",gradstudent,,,M.S.,Oregon State University,B.S.,"Agriculture and Forestry University, Nepal",,,she/her

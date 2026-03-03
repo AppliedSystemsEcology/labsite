@@ -4,10 +4,11 @@ last: Tiwari
 middle: ''
 first: Grace
 people_group: gradstudent
-education: ''
-subtitle: Graduate Student
+education: M.S. | Oregon State University <br> B.S. | Agriculture and Forestry University,
+  Nepal
+subtitle: Ph.D. Student, Entomology/INTAD
 blurb: ''
-description: ''
+description: she/her
 image: ../_images/_template.jpg
 toc: false
 listing:
@@ -28,6 +29,12 @@ about:
   - icon: envelope
     text: Email
     href: gvt5197@psu.edu
+  - icon: github
+    text: GitHub
+    href: gracetiwari
+  - icon: linkedin
+    text: LinkedIn
+    href: www.linkedin.com/in/gracetiwari
 ---
 
 <hr>

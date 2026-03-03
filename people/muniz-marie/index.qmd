@@ -4,10 +4,11 @@ last: Muniz
 middle: Lassiter
 first: Marie
 people_group: gradstudent
-education: ''
-subtitle: Graduate Student
-blurb: ''
-description: ''
+education: Ph.D. | University of North Texas <br> B.S.
+subtitle: Ph.D. Student, Entomology
+blurb: I am interested in how environmental and anthropogenic stressors impact important
+  pollinator behaviors.
+description: she/her
 image: ../_images/_template.jpg
 toc: false
 listing:
@@ -28,6 +29,14 @@ about:
   - icon: envelope
     text: Email
     href: mlm7670@psu.edu
+  - text: ORCID
+    href: https://orcid.org/0000-0003-3191-2275
+  - icon: github
+    text: GitHub
+    href: immortalwhat
+  - icon: linkedin
+    text: LinkedIn
+    href: https://www.linkedin.com/in/mariemuniz/
 ---
 
 <hr>

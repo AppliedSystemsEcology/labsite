@@ -1,14 +1,14 @@
 ---
-title: Kelly Lynne Bennett
+title: Kelly L Bennett
 last: Bennett
-middle: Lynne
+middle: L
 first: Kelly
 people_group: technician
-education: ''
-subtitle: Research Technologist in the Applied Systems Ecology Lab
+education: B. Phil | Penn State University
+subtitle: Research Technologist
 blurb: ''
-description: ''
-image: ../_images/_template.jpg
+description: she/her
+image: ../_images/bennett-kelly.jpg
 toc: false
 listing:
   id: pubs
@@ -23,11 +23,11 @@ about:
   id: about
   template: trestles
   image-shape: round
-  image: ../_images/_template.jpg
+  image: ../_images/bennett-kelly.jpg
   links:
   - icon: envelope
     text: Email
-    href: klb6219@psu.edu
+    href: kellybennett@psu.edu
 ---
 
 <hr>

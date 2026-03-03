@@ -5,7 +5,7 @@ middle: A
 first: Mark
 people_group: alumni
 education: Ph.D. | Cornell University <br> B.S. | University of Montana
-subtitle: ''
+subtitle: Currently at Utah State University
 blurb: ''
 description: ''
 image: ../_images/buckner-mark.jpg

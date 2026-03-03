@@ -5,7 +5,7 @@ middle: Nicole
 first: Elyssia
 people_group: technician
 education: ''
-subtitle: Part-Time Research Support
+subtitle: Undergraduate Research Support
 blurb: ''
 description: ''
 image: ../_images/_template.jpg
