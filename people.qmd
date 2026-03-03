@@ -8,7 +8,7 @@ listing:
       people_group: "pi"
     exclude:
       external: true
-    template: _ejs/people-box.ejs
+    template: _ejs/people-box-warning.ejs
     type: grid
     fields: [title, subtitle, image, education]
   - id: extension-faculty
@@ -19,7 +19,7 @@ listing:
       people_group: "extension-faculty"
     exclude:
       external: true
-    template: _ejs/people-box.ejs
+    template: _ejs/people-box-danger.ejs
     type: grid
     fields: [title, subtitle, image, education]
   - id: postdoc
@@ -30,7 +30,7 @@ listing:
       people_group: "postdoc"
     exclude:
       external: true
-    template: _ejs/people-box.ejs
+    template: _ejs/people-box-light.ejs
     sort: last    
     type: grid
     fields: [title, subtitle, image, education]
@@ -42,7 +42,7 @@ listing:
       people_group: "gradstudent"
     exclude:
       external: true
-    template: _ejs/people-box-brite.ejs
+    template: _ejs/people-box-success.ejs
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
@@ -54,7 +54,7 @@ listing:
       people_group: "technician"
     exclude:
       external: true
-    template: _ejs/people-box.ejs
+    template: _ejs/people-box-info.ejs
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
@@ -66,7 +66,7 @@ listing:
       people_group: "undergrad"
     exclude:
       external: true
-    template: _ejs/people-box.ejs
+    template: _ejs/people-box-primary.ejs
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
@@ -78,7 +78,7 @@ listing:
       people_group: "alumni"
     exclude:
       external: true
-    template: _ejs/alumni-box.ejs
+    template: _ejs/people-box-secondary.ejs
     sort: last
     type: grid
     fields: [title, subtitle, image, education, altsubtitle, alteducation]
