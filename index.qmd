@@ -1,5 +1,4 @@
 ---
-title: "Welcome to the Applied Systems Ecology Lab"
 page-layout: full
 toc: false
 
