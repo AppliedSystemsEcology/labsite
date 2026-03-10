@@ -10,12 +10,24 @@ title-block-banner-color: "#ffffff"
 
 ## Who we are
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+We are the Applied Systems Ecology Lab located within the Department of Entomology at Penn State University.
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+Pests and beneficial insects, like pollinators, can have major impacts on the productivity of agroecosystems. The integrated pest and pollinator management strategies that we work on help growers to balance pest management needs with services provided by beneficial insects like wild pollinators and predators. Yet, predicting when and where pests and beneficial insects are likely to occur remains a challenge for implementing these strategies. We are interested in understanding factors that predict the abundance and distribution of these important insects and applying that knowledge towards advancing the productivity and sustainability of agroecosystems.
 
 ## What we do
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+Projects in the lab include 1) Co-managing pest and beneficial insect populations on farms through Integrated Pest and Pollinator Management (IPPM) including strategies like identifying reduced risk pesticide programs, all the way up to studies of habitat distribution at the landscape scale and 2) Leveraging long term monitoring data sets in combination with environmental data on land use, climate, soils etc. to predict population of pests and beneficial insects in the short and long term. Ultimately, by understanding where and when these important insects are likely to occur, we seek to develop strategies that support both food security and sustainable ecosystem goals.
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+Adapted from (<https://ento.psu.edu/directory/hlc30>)
+
+https://github.com/tomicapretto/quarto-carousel
+
+:::: {.carousel .dark .framed indicators="false"}
+
+:::: {.carousel-item image="images/m-landscape-cropped.jpg" caption="Caption 1"}
+:::
+
+:::: {.carousel-item image="images/m-landscape.jpg" caption="Caption 2"}
+:::
+
+:::
