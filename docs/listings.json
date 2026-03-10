@@ -1,14 +1,6 @@
 [
   {
-    "listing": "/people/tiwari-grace/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/prade-patricia/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/muniz-marie/index.html",
+    "listing": "/people/buckner-mark/index.html",
     "items": []
   },
   {
@@ -18,29 +10,11 @@
     ]
   },
   {
-    "listing": "/people/grab-heather/index.html",
-    "items": [
-      "/publications/2025_Unraveling_microclimate_effects/index.html"
-    ]
-  },
-  {
-    "listing": "/people/buckner-mark/index.html",
+    "listing": "/people/oberholtzer-marlow/index.html",
     "items": []
   },
   {
-    "listing": "/news.html",
-    "items": [
-      "/news/20251109_EntSoc/20251109_EntSoc.html"
-    ]
-  },
-  {
-    "listing": "/extension.html",
-    "items": [
-      "/extension/20260224_IPMWebinar/20260224_IPMWebinar.html"
-    ]
-  },
-  {
-    "listing": "/people/bennett-kelly/index.html",
+    "listing": "/people/prade-patricia/index.html",
     "items": []
   },
   {
@@ -48,19 +22,7 @@
     "items": []
   },
   {
-    "listing": "/people/kintigh-kristina/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/magliaro-lauren/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/oberholtzer-marlow/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/robertson-mykala/index.html",
+    "listing": "/people/muniz-marie/index.html",
     "items": []
   },
   {
@@ -81,10 +43,52 @@
     ]
   },
   {
+    "listing": "/extension.html",
+    "items": [
+      "/extension/20260224_IPMWebinar/20260224_IPMWebinar.html"
+    ]
+  },
+  {
     "listing": "/publications.html",
     "items": [
       "/publications/2025_Benefits_of_wildflower/index.html",
       "/publications/2025_Unraveling_microclimate_effects/index.html"
     ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/20251109_EntSoc/20251109_EntSoc.html"
+    ]
+  },
+  {
+    "listing": "/people/tiwari-grace/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/grab-heather/index.html",
+    "items": [
+      "/publications/2025_Unraveling_microclimate_effects/index.html"
+    ]
+  },
+  {
+    "listing": "/people/robertson-mykala/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/bennett-kelly/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/kintigh-kristina/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/magliaro-lauren/index.html",
+    "items": []
   }
 ]

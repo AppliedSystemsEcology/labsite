@@ -45,47 +45,51 @@ function formatAPA(item) {
 
 <div class="list quarto-listing-default">
     <% for (const item of items) { %>
-
+    
     <% const hasImage = !!item.image; %>
 
     <div class="quarto-post image-right <%= hasImage ? 'has-image' : 'no-image' %>"
          <%= metadataAttrs(item) %>>
-
+         
         <% if (hasImage) { %>
           <div class="thumbnail">
             <img
               alt="<%= item.title %>"
-              src="<%= item.image %>"
+              src="<%= item.path %>/<%= item.image %>"
               class="thumbnail-image">
           </div>
         <% } %>
-
+         
         <div class="body">
-            <!-- <a href="<%- item.path %>"> -->
-
+            <!-- Hidden fields for Quarto filter indexing -->
+            <div class="listing-title" style="display:none"><%= item.title %></div>
+            <div class="listing-author" style="display:none"><%= formatAuthorsAPA(item.author) %></div>
+            <div class="listing-year" style="display:none"><%= item.year %></div>
+            <div class="listing-journ" style="display:none"><%= item.journ %></div>
+        
+            <!-- Visible APA formatted citation -->
             <div class="listing-pub-apa">
               <%= formatAPA(item) %>
             </div>
-
-            <!-- </a> -->
-        <% if (Array.isArray(item.categories)) { %>
-          <div class="listing-categories">
-            <% for (const category of item.categories) { %>
-              <div class="listing-category"
-                   onclick="window.quartoListingCategory('<%= category %>'); return false;">
-                <%= category %>
+        
+            <% if (Array.isArray(item.categories)) { %>
+              <div class="listing-categories">
+                <% for (const category of item.categories) { %>
+                  <div class="listing-category"
+                       onclick="window.quartoListingCategory('<%= category %>'); return false;">
+                    <%= category %>
+                  </div>
+                <% } %>
               </div>
             <% } %>
-          </div>
-        <% } %>
-
         </div>
+        
         <div class="listing-links">
             <% if (item.url_source) { %>
             <div class="listing-pub-url">
 
                     <a href="<%- item.url_source %>">
-                    <p style="color:#8250E6;">Article <i class="bi bi-box-arrow-up-right"></i></p>
+                    <p style="color:#8250E6;">Journal <i class="bi bi-box-arrow-up-right"></i></p>
                     </a>
                 </div>
                     <% } %>

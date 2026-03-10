@@ -1,5 +1,8 @@
 ---
 title: "Our projects"
+listing:
+  contents: projects
+  fields: [title, categories, description, image]
 ---
 
 ### Corn Earworm Projects
