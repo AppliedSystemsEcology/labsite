@@ -6,7 +6,6 @@ project:
 
 website:
   title: "Applied Systems Ecology Lab"
-  back-to-top-navigation: true
   page-footer:
     center: "© 2026 Applied Systems Ecology Lab"
     background: light
@@ -66,4 +65,7 @@ format:
 
 
 editor: visual
+
+filters:
+  - carousel
 
