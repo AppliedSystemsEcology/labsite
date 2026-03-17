@@ -1,0 +1,11 @@
+---
+title: "Corn Earworm Project"
+subtitle: ""
+format: html
+---
+
+## Smart Trap
+
+## CEW Forecasting Model
+
+## Extension Reporting

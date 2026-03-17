@@ -57,7 +57,14 @@
   },
   {
     "listing": "/projects.html",
-    "items": []
+    "items": [
+      "/projects/beespatial/index.html",
+      "/projects/bumble-bee-stressors/index.html",
+      "/projects/corn-earworm/index.html",
+      "/projects/deepflora/index.html",
+      "/projects/high-tunnel-thrips/index.html",
+      "/projects/tomato-pollinators/index.html"
+    ]
   },
   {
     "listing": "/news.html",

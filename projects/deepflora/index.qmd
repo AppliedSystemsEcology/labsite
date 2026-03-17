@@ -1,0 +1,7 @@
+---
+title: "DeepFlora"
+subtitle: "A spatiotemporal model of floral resources in the landscape"
+format: html
+---
+
+![](/projects/beespatial/GraphicalAbstract.jpg){fig-alt="Beescape and BeeSpatial graphical abstract" fig-align="center"}

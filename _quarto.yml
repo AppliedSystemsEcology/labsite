@@ -38,6 +38,7 @@ website:
           - text: "Alumni"
             href: people.html#alumni
       - text: "Projects"
+        href: projects.html
         menu:
           - text: "Corn Earworm Projects"
             href: projects.html#corn-earworm-projects
