@@ -24,10 +24,10 @@ https://github.com/tomicapretto/quarto-carousel
 
 :::: {.carousel .dark .framed indicators="false"}
 
-:::: {.carousel-item image="images/m-landscape-cropped.jpg" caption="Caption 1"}
+:::: {.carousel-item image="images/m-landscape-cropped.jpg" style="height: 400px;" caption="Caption 1"}
 :::
 
-:::: {.carousel-item image="images/m-landscape.jpg" caption="Caption 2"}
+:::: {.carousel-item image="images/m-landscape.jpg" style="height: 400px;" caption="Caption 2"}
 :::
 
 :::
